@@ -1309,23 +1309,20 @@
         });
       }
 
-      // 4. Note RSS 自動連動
-      const NOTE_ID = "studiocalx";
-      const rssUrl = `https://note.com/${NOTE_ID}/rss`;
-      const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}`;
-
-      fetch(apiUrl)
-        .then(res => res.json())
-        .then(data => {
-          const grid = document.getElementById("note-posts-grid");
-          if (!grid) return;
-
-          if (!data.items || data.items.length === 0) {
-            grid.innerHTML = '<p style="text-align: left; color: #888888; grid-column: 1 / -1;">公開中の記事が見つかりませんでした。</p>';
-            return;
-          }
-
-          grid.innerHTML = "";
+     // 4. Note への誘導リンクカード（自動取得エラー回避版）
+const grid = document.getElementById("note-posts-grid");
+if (grid) {
+    grid.style.gridColumn = "1 / -1";
+    grid.innerHTML = `
+        <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 12px; padding: 30px; text-align: center; margin: 20px 0;">
+            <p style="color: #fff; font-size: 1.1rem; margin-bottom: 15px; font-weight: 500;">Studio Calx 編集部の最新記事はNoteで公開中</p>
+            <p style="color: #aaa; font-size: 0.9rem; margin-bottom: 25px;">「音の答え」「実践AI活用講座」「20世紀音楽史」などのシリーズを連載しています。</p>
+            <a href="https://note.com/studiocalx" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #232323; color: #fff; padding: 12px 28px; border-radius: 30px; text-decoration: none; border: 1px solid rgba(255,255,255,0.2); transition: all 0.3s ease;">
+                Noteで記事を読む ↗
+            </a>
+        </div>
+    `;
+}
 
           data.items.slice(0, 3).forEach(item => {
             const pubDate = new Date(item.pubDate);
