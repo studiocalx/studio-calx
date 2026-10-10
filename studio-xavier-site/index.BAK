@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studio Xavier | Web & DTP Direction Studio</title>
+  <meta name="description" content="Studio Xavierは生成AIを活用した次世代のWeb/DTPディレクションオフィスです。月額固定費0円でWebサイト、デジタルメニュー、印刷用DTPを一括構築します。">
+
+  <!-- OGP (SNSシェア用の基本設定) -->
+  <meta property="og:title" content="Studio Xavier | 高速Web & DTPディレクション">
+  <meta property="og:description" content="「作る」から「統括する」へ。月額固定費0円で実現する次世代の店舗ブランディング＆デジタルメニュー。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sprightly-lolly-21e204.netlify.app/">
+  <meta property="og:site_name" content="Studio Xavier">
+
+  <!-- Twitter Card設定 -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Studio Xavier | 高速Web & DTPディレクション">
+  <meta name="twitter:description" content="月額固定費0円で実現する次世代の店舗ブランディング＆デジタルメニュー。">
+
+  <!-- フォント読み込み -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSSファイルリンク -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-container">
+      <p class="tagline">DIRECTING THE FUTURE</p>
+      <h1 class="brand-title">STUDIO XAVIER</h1>
+      <p class="hero-desc">「作る」から「統括する」へ。<br>AI制作エンジンが実現する、圧倒的スピードと超高精度ブランディング。</p>
+      <div class="cta-group">
+        <a href="#works" class="btn btn-primary">制作実績を見る</a>
+        <a href="#services" class="btn btn-secondary">提供サービス</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Vision Section -->
+  <section class="section vision-section">
+    <div class="container">
+      <h2 class="section-label">VISION</h2>
+      <h3 class="section-title">コードを打ち込む時代は、終わった。</h3>
+      <p class="vision-text">
+        Studio Xavierは、生成AIをフル活用した次世代のWeb/DTPディレクションオフィスです。<br>
+        Webサイト、印刷用PDF、SNSクリエイティブを一括構築し、従来のコストと制作期間を大幅に削ぎ落とします。
+      </p>
+    </div>
+  </section>
+
+  <!-- Works Section -->
+  <section id="works" class="section works-section">
+    <div class="container">
+      <h2 class="section-label">SELECTED WORKS</h2>
+      <div class="works-grid">
+  <!-- Work 1 -->
+  <article class="work-card">
+    <div class="work-img-wrapper">
+      <img src="images/cafe-thumb.jpg" alt="CAFE XAVIER" class="work-img">
+    </div>
+    <div class="work-badge">DIGITAL MENU / PWA</div>
+    <h3 class="work-title">CAFE XAVIER</h3>
+    <p class="work-desc">スマホ特化型デジタルメニュー＆完全無料ホスティング構成</p>
+    <a href="https://calm-pika-12c0fe.netlify.app/" target="_blank" class="work-link">デモサイトを見る ↗</a>
+  </article>
+
+  <!-- Work 2 -->
+  <article class="work-card">
+    <div class="work-img-wrapper">
+      <img src="images/dtp-thumb.jpg" alt="A4 Desktop POP System" class="work-img">
+    </div>
+    <div class="work-badge">DTP / POP</div>
+    <h3 class="work-title">A4 卓上POP & チラシシステム</h3>
+    <p class="work-desc">ブラウザから直接A4高精度PDF入稿が可能なレスポンシブDTPテンプレート</p>
+    <a href="pop.html" target="_blank" class="work-link">DTPデモを見る ↗</a>
+  </article>
+</div>
+    </div>
+  </section>
+
+<!-- Sample 1: BAR -->
+       <article class="work-card">
+          <div class="work-img-wrapper">
+            <img src="images/bar-thumb.jpg" alt="BAR L'ÉTOILE" class="work-img">
+          </div>
+          <div class="work-badge">NIGHT ECONOMY / BAR</div>
+          <h3 class="work-title">BAR L'ÉTOILE</h3>
+          <p class="work-desc">高級バー・ラウンジ向けデジタルメニュー＆A4卓上POPシステム</p>
+          <a href="bar-demo.html" target="_blank" class="work-link">バー用デモを見る ↗</a>
+        </article>
+
+  <!-- Services Section -->
+  <section id="services" class="section services-section">
+    <div class="container">
+      <h2 class="section-label">SERVICES</h2>
+      <div class="services-grid">
+        <div class="service-box">
+          <span class="num">01</span>
+          <h4>Web & PWA Development</h4>
+          <p>単一ファイル構成で爆速ロードを実現するスマホ最適化サイト・LP制作。</p>
+        </div>
+        <div class="service-box">
+          <span class="num">02</span>
+          <h4>DTP / Print Integration</h4>
+          <p>Webデザインと連動したA4チラシ・メニュー・POP等の高精度印刷データ同時生成。</p>
+        </div>
+        <div class="service-box">
+          <span class="num">03</span>
+          <h4>Zero-Cost Operations</h4>
+          <p>ドメイン・サーバー代などの固定費を徹底的に抑えた「0円スタート」構成の提案。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Pricing Section -->
+  <section id="pricing" class="section pricing-section">
+    <div class="container">
+      <h2 class="section-label">PRICING & COST</h2>
+      <h3 class="section-title">完全0円運用を実現するトータルプラン</h3>
+      <p class="pricing-desc">ドメイン・サーバー代などの月額固定費は徹底的に0円へ。必要なのは最初の制作ディレクション費のみです。</p>
+
+      <div class="pricing-grid">
+        <!-- Plan 1 -->
+        <div class="price-card">
+          <div class="price-header">
+            <span class="plan-name">LIGHT</span>
+            <div class="price-amount">¥50,000<span>〜</span></div>
+            <p class="plan-sub">デジタルメニュー / 単ページWeb</p>
+          </div>
+          <ul class="plan-features">
+            <li>スマホ最適化 Web/PWA（単一ページ）</li>
+            <li>QRコード発行 ＆ 店舗導線構築</li>
+            <li><strong>月額固定費：完全 0 円</strong></li>
+            <li>高速納品（最短 1 Day）</li>
+          </ul>
+        </div>
+
+        <!-- Plan 2 (Featured) -->
+        <div class="price-card featured">
+          <div class="recommend-badge">RECOMMENDED</div>
+          <div class="price-header">
+            <span class="plan-name">STANDARD BRANDING</span>
+            <div class="price-amount">¥120,000<span>〜</span></div>
+            <p class="plan-sub">Web ＋ A4印刷（DTP） ＋ SNSフルセット</p>
+          </div>
+          <ul class="plan-features">
+            <li>スマホ最適化 Webサイト / LP制作</li>
+            <li>A4卓上POP・チラシ用印刷データ（PDF）</li>
+            <li>Instagramフィード / ストーリーズ用画像</li>
+            <li>Netlify高機能フォーム構築</li>
+            <li><strong>月額固定費：完全 0 円</strong></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Contact Section -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <h2 class="section-label">CONTACT</h2>
+      <h3 class="section-title">プロジェクトのご相談・お問い合わせ</h3>
+      <p class="contact-desc">Web制作、DTP連携、ブランディングの一括導入など、お気軽にお問い合わせください。</p>
+
+      <!-- Netlify Forms連携用フォーム -->
+      <form name="contact" method="POST" data-netlify="true" class="contact-form">
+        <!-- スパム対策用の隠しフィールド（Netlify推奨） -->
+        <input type="hidden" name="form-name" value="contact" />
+
+        <div class="form-group">
+          <label for="name">お名前 / 貴社名 <span class="required">*</span></label>
+          <input type="text" id="name" name="name" required placeholder="例）山田 太郎">
+        </div>
+
+        <div class="form-group">
+          <label for="email">メールアドレス <span class="required">*</span></label>
+          <input type="email" id="email" name="email" required placeholder="例）info@example.com">
+        </div>
+
+        <div class="form-group">
+          <label for="service">ご相談内容 <span class="required">*</span></label>
+          <select id="service" name="service" required>
+            <option value="" disabled selected>選択してください</option>
+            <option value="web-dtp">Web + DTP 一括導入パッケージ</option>
+            <option value="digital-menu">デジタルメニュー / PWA導入</option>
+            <option value="other">その他・ご質問</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">メッセージ <span class="required">*</span></label>
+          <textarea id="message" name="message" rows="5" required placeholder="具体的なご要件やスケジュール感などをご記入ください。"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary submit-btn">送信する</button>
+      </form>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-logo">STUDIO XAVIER</p>
+      <p class="copyright">&copy; Studio Xavier. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
